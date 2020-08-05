@@ -1,4 +1,4 @@
-$.getJSON('https://api.unsplash.com/users/riri_cc/likes/?client_id=wStDWhGUBB9M3984KWuu0YW00n4eJ33zYidRsQmUGpE', function(data){
+$.getJSON('https://api.unsplash.com/users/joaccord/?client_id=wStDWhGUBB9M3984KWuu0YW00n4eJ33zYidRsQmUGpE', function(data){
 console.log(data);
 
 $.each(data, function(index, value) {
